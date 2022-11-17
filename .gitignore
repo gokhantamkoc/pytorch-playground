@@ -1,0 +1,9 @@
+# Jetbrains
+.idea/
+
+# Poetry
+poetry.lock
+
+# Data
+*.pth
+data/

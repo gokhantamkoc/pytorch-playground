@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pytorch-playground"
+version = "0.1.0"
+description = ""
+authors = ["Gökhan Tamkoç"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nvidia-cublas-cu11 = "11.10.3.66"
+nvidia-cuda-nvrtc-cu11 = "11.7.99"
+nvidia-cuda-runtime-cu11 = "11.7.99"
+nvidia-cudnn-cu11 = "8.5.0.96"
+torch = "^1.13.0"
+torchvision = "^0.14.0"
+torchaudio = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
